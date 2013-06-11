@@ -1,7 +1,12 @@
-<h1 id='logo'>
-  <%= link_to Refinery::Core.site_name, refinery.root_path %>
-</h1>
-<%= render(:partial => "/refinery/menu", :locals => {
-             :dom_id => 'menu',
-             :css => 'menu'
-           }) %>
+<div id="site_title">
+  <div id='photo'></div>
+  <h1 id='logo'><%= link_to Refinery::Core.site_name, refinery.root_path %></h1></div>
+
+<div id="twitter"><a href="http://www.facebook.com/Nikolay.casper"></a></div>
+
+<div id="templatemo_menu">
+  <%= render(:partial => "/refinery/menu", :locals => {
+          :dom_id => 'menu',
+          :css => 'menu'
+  }) %>
+</div> <!-- end of templatemo_menu -->

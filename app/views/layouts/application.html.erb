@@ -5,17 +5,17 @@
   <body>
     <%= site_bar -%>
     <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
-    <div id="page_container">
-      <header id="header">
+    <div id="templatemo_wrapper">
+      <div id="templatemo_header">
         <%= render '/refinery/header' -%>
-      </header>
-      <section id="page">
+      </div>
+      <div>
         <%= yield %>
-      </section>
-      <footer>
-        <%= render '/refinery/footer' -%>
-      </footer>
+      </div>
     </div>
+      <div id="templatemo_footer_wrapper">
+        <%= render '/refinery/footer' -%>
+      </div> <!-- end of templatemo_footer_wrapper -->
     <%= render '/refinery/javascripts' %>
   </body>
 </html>

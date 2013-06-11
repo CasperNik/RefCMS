@@ -10,7 +10,7 @@ body {
 	font-size: 13px;
 	line-height: 1.7em; 
 	background-color: #030303;
-	background-image: url(images/templatemo_body.jpg);
+	background-image: url(templatemo_body.jpg);
 	background-repeat: repeat-x;
 	background-position: top	
 }
@@ -76,7 +76,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	color:#f9b507; 
 	margin: 0; 
 	padding: 0 0 5px 0; 
-	background: url(images/templatmeo_list.png) no-repeat scroll 0 3px;  
+	background: url(templatmeo_list.png) no-repeat scroll 0 3px;
 }
 
 .tmo_list li a { 
@@ -93,13 +93,13 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #templatemo_wrapper {
 	width: 988px;
 	margin: 0 auto;
-	background: url(images/templatemo_wrapper.png) top right no-repeat
+	background: url(templatemo_wrapper.png) top right no-repeat
 }
 
 #templatemo_header {
 	width: 988px;
 	height: 160px;
-	background: url(images/templatemo_header.png) no-repeat top
+	background: url(templatemo_header.png) no-repeat top
 }
 
 #site_title { 
@@ -118,7 +118,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	color: #fff; 
 	outline: none; 
 	text-indent: -10000px; 
-	background: url(images/templatemo_logo.png)  no-repeat top left; 
+	background: url(templatemo_logo_1.png)  no-repeat top left;
 }
 
 #twitter a { 
@@ -131,7 +131,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	margin: 10px 30px 0 0; 
 	color: #ccc; 
 	font-size: 18px; 
-	background: url(images/twitter.png)  no-repeat right center; 
+	background: url(facebook2.png)  no-repeat right center;
 	text-decoration: none; 
 }
 
@@ -157,7 +157,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	padding: 0;
 	margin: 0;
 	display: inline;
-	background: url(images/templatemo_menu_divider.png) right center no-repeat
+	background: url(templatemo_menu_divider.png) right center no-repeat
 }
 
 #templatemo_menu ul .last { background: none }
@@ -179,7 +179,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 
 #templatemo_menu ul li a:hover, #templatemo_menu ul .current {
 	color: #000;
-	background: url(images/templatemo_mouse_hover.png) bottom center no-repeat
+	background: url(templatemo_mouse_hover.png) bottom center no-repeat
 }
 
 /* end of menu */
@@ -217,7 +217,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	line-height: 40px; 
 	text-align: center; 
 	text-decoration: none; 
-	background: url(images/templatemo_learn_more.png); 
+	background: url(templatemo_learn_more.png);
 }
 
 #learn_more a:hover { 
@@ -336,7 +336,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #templatemo_footer_wrapper {
 	clear: both;
 	width: 100%;
-	background: url(images/templatemo_footer.jpg) repeat-x bottom
+	background: url(templatemo_footer.jpg) repeat-x bottom
 }
 
 #templatemo_footer {
@@ -351,4 +351,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 #templatemo_footer a {
 	font-weight: normal;
 	color: #fff;
+}
+#photo {
+    background: url(photo.jpg) no-repeat scroll;
 }

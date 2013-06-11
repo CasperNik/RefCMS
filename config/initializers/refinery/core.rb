@@ -29,7 +29,7 @@ Refinery::Core.configure do |config|
   config.menu_hide_children = true
 
   # CSS class selectors for menu helper
-  # config.menu_css = {:selected=>"selected", :first=>"first", :last=>"last"}
+  config.menu_css = {:selected=>"current", :first=>"first", :last=>"last"}
 
   # Should set this if concerned about DOS attacks. See
   # http://markevans.github.com/dragonfly/file.Configuration.html#Configuration
