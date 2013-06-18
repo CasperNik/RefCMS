@@ -353,5 +353,13 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	color: #fff;
 }
 #photo {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 113px;
     background: url(photo.jpg) no-repeat scroll;
+}
+#mid_text {
+    float: left;
 }
