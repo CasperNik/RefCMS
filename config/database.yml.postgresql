@@ -55,4 +55,4 @@ production:
   pool: 5
   username: igjklyqqdkagoo
   password: WRkkrNswi7XDibmIhg2UehwfxC
-  min_messages: warning
+

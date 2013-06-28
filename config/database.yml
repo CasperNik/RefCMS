@@ -26,7 +26,9 @@ production:
   host: ec2-54-235-155-182.compute-1.amazonaws.com
   username: igjklyqqdkagoo
   password: WRkkrNswi7XDibmIhg2UehwfxC
-  database: de6a686kjtf80r
   pool: 5
   timeout: 5000
+
+
+
 
