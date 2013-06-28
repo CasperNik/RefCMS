@@ -1,5 +1,20 @@
-<%= render_content_page(@page, {
-      :hide_sections => local_assigns[:hide_sections],
-      :can_use_fallback => !local_assigns[:show_empty_sections] && !local_assigns[:remove_automatic_sections]
-    }) %>
-<%= render '/refinery/draft_page_message' unless @page.nil? or @page.live? -%>
+
+<div id="templatemo_middle">
+ <div id="photo">
+ </div>
+  <div id="middle_text">
+    <h4>
+    Hi, there.
+      </h4>
+  I'm Nikolai. I've been doing web development since 2002. I have a lot of experience in the development of different types of sites on a variety of platforms and programming languages. For more information about my skills and experience in the development, you can read <a href="/cv">here</a>.
+  <br/>Currently, I continue to learn and improve my skills in Ruby on Rails.
+  </div>
+  <div class="cleaner"></div>
+</div> <!-- end of middle -->
+<div id="templatemo_main">
+  <%= render_content_page(@page, {
+          :hide_sections => local_assigns[:hide_sections],
+          :can_use_fallback => !local_assigns[:show_empty_sections] && !local_assigns[:remove_automatic_sections]
+  }) %>
+  <%= render '/refinery/draft_page_message' unless @page.nil? or @page.live? -%>
+</div> <!-- end of main -->

@@ -36,10 +36,10 @@ Refinery::Images.configure do |config|
   # Configure Dragonfly
   # This is where in the middleware stack to insert the Dragonfly middleware
   # config.dragonfly_insert_before = "ActionDispatch::Callbacks"
-  # config.dragonfly_secret = "515d1b6cd541c0907d3c2dabe2453e0c9011570e8ac2baa4"
+  # config.dragonfly_secret = "9c1d8a4da819e9375680c672ad461d6d06e0b8495d792d8b"
   # If you decide to trust file extensions replace :ext below with :format
   # config.dragonfly_url_format = "/system/images/:job/:basename.:ext"
-  # config.datastore_root_path = "/home/nik/RubyProjects/Test2/public/system/refinery/images"
+  # config.datastore_root_path = "/home/nik/RubyProjects/Ref2/clearRefCMS/public/system/refinery/images"
   # config.trust_file_extensions = false
 
 end
