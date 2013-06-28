@@ -20,9 +20,15 @@ test:
 
 production:
   adapter: postgresql
+<<<<<<< HEAD
   encoding: unicode
   database: de6a686kjtf80r
   port: 5432
   host: ec2-54-235-155-182.compute-1.amazonaws.com
   username: igjklyqqdkagoo
   password: WRkkrNswi7XDibmIhg2UehwfxC
+=======
+  database: de6a686kjtf80r
+  pool: 5
+  timeout: 5000
+>>>>>>> 31b952cdc85bc6547b75ea1476cbf21f602e64b9
