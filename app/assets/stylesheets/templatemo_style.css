@@ -368,3 +368,4 @@ div.h {background-color: grey; text-align:center;border: 1px solid goldenrod;}
 div.h h2 {padding:0; margin:10px; font-size:28px;}
 p.block {padding:0;margin:0;padding-top:10px;padding-bottom:10px; padding-left:20px}
 p.block strong {color:white;}
+#body_content_title {display: none;}
