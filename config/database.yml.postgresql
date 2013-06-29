@@ -14,7 +14,7 @@
 #
 development:
   adapter: postgresql
-  encoding: UTF8
+  encoding: unicode
   database: de6a686kjtf80r
   pool: 5
   username: igjklyqqdkagoo
@@ -49,7 +49,7 @@ test:
 
 production:
   adapter: postgresql
-  encoding: UTF8
+  encoding: unicode
   database: de6a686kjtf80r
   pool: 5
   username: igjklyqqdkagoo
