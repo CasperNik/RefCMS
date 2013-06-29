@@ -20,13 +20,10 @@ test:
 
 production:
   adapter: postgresql
-  encoding: unicode
   database: d3mu8qvu5cem2k
-  port: 5432
   host: ec2-54-225-121-179.compute-1.amazonaws.com
   username: wzhyshwfmszjcw
   password: bn-JQZntiZ4TfGn-dbyK28gO3h
-  sslmode: require
 
 
 
