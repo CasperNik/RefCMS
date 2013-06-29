@@ -26,8 +26,7 @@ production:
   host: ec2-54-225-121-179.compute-1.amazonaws.com
   username: wzhyshwfmszjcw
   password: bn-JQZntiZ4TfGn-dbyK28gO3h
-  pool: 5
-  timeout: 5000
+  sslmode: require
 
 
 
